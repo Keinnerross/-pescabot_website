@@ -1,6 +1,6 @@
 const Features = () => {
     return (
-        <div className="flex justify-center items-center">
+        <div id="features" className="flex justify-center items-center">
             <div className="flex justify-between w-[90%]">
                 <div className="w-[60%]">
                     img

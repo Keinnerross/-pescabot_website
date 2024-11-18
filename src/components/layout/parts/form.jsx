@@ -4,7 +4,7 @@ const Form = () => {
 
 
     return (
-        <div className="w-full flex justify-center">
+        <div id="form" className="w-full flex justify-center">
             <div className="w-[90%] flex flex-col items-center gap-4">
                 <h2>¡Solicita una cotización!</h2>
                 <form className="flex flex-col w-[60%] gap-4">
