@@ -1,4 +1,4 @@
-import '../../../animations/waveFooter.css';
+import '../../animations/waveFooter.css';
 
 const WaveFooter = () => {
 

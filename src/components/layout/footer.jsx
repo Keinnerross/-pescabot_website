@@ -3,7 +3,7 @@ import ContactFooter from "./parts/widgets/contactFooter";
 import CopyFooter from "./parts/widgets/copyFooter";
 import VerticalNav from "./parts/widgets/verticalNav";
 import NavResources from "./parts/widgets/navResources";
-import WaveFooter from "../home/waves/waveFooter";
+import WaveFooter from "../waves/waveFooter";
 
 const Footer = () => {
     return (

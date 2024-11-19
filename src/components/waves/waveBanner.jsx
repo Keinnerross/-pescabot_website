@@ -1,4 +1,4 @@
-import '../../../animations/waveBanner.css';
+import '../../animations/waveBanner.css';
 
 const WaveBanner = () => {
 
@@ -15,9 +15,6 @@ const WaveBanner = () => {
                 <div className='wave wave2'></div>
                 <div className='wave wave3'></div>
                 <div className='wave wave4'></div>
-
-
-
             </section>
         </div>
     )

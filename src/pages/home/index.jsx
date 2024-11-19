@@ -1,7 +1,7 @@
 import Banner from "@/components/home/banner";
 import Features from "@/components/home/features";
 import About from "@/components/home/About";
-import WaveBanner from "@/components/home/waves/waveBanner";
+import WaveBanner from "@/components/waves/waveBanner";
 
 const HomePage = () => {
     return (
