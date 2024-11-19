@@ -12,14 +12,14 @@ const Header = () => {
 
     return (
         <Fragment>
-            <div className="desktopHeader hidden md:flex items-center justify-center w-screen bg-slate-200">
+            <div className="desktopHeader hidden md:flex items-center justify-center w-screen z-[999999999999] relative">
                 <div className="flex justify-between w-11/12 items-center">
                     <Logotype withLogotype="200" />
                     <Nav />
                 </div>
             </div>
 
-            <div className="MobileMenu md:hidden flex items-center justify-center w-screen bg-slate-200">
+            <div className="MobileMenu md:hidden flex items-center justify-center w-screen ">
                 <div className="flex justify-between w-11/12 items-center">
                     <Logotype withLogotype="200" />
                     <div className="">

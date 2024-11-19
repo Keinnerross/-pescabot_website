@@ -1,6 +1,6 @@
 const Form = () => {
 
-    const inputStyles = "border border-gray-400 rounded-full px-4 py-4 "
+    const inputStyles = "border border-gray-400 rounded-2xl px-4 py-4 "
 
 
     return (
