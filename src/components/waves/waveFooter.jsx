@@ -7,7 +7,7 @@ const WaveFooter = () => {
 
 
     return (
-        <div className='w-screen h-screen transform absolute top-0 left-0 z-50 '>
+        <div className='w-full h-screen transform absolute top-0 left-0 z-50 '>
 
             <section className="w-full relative h-[100vh]   overflow-hidden">
             <div className='waveFooter waveFooterBg'></div>

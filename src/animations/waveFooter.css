@@ -2,8 +2,8 @@ section .waveFooter {
   position: absolute;
   width: 100%;
   background-image: url("/wave.png");
-  background-size: 1000px 600px;
-  height: 600px;
+  background-size: 1000px 500px;
+  height: 500px;
 }
 
 section .waveFooter.waveFooterBg {

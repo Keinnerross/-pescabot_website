@@ -1,18 +1,31 @@
+
+
+import Image from "next/image";
+import { FaCheck } from "react-icons/fa";
+
 const About = () => {
     return (
-        <div id="about" className="h-[90vh] flex items-center justify-center">
-            <div className="w-[90%] flex justify-between">
-                <div className="w-[50%]">
-                    <h2 className="text-6xl leading-[65px]">Nuestra Misión: Revolucionar la Pesca con Tecnología Inteligente</h2>
-                    <p>PescaBot es un sistema de automatización de RPA diseñado para simplificar la interacción con los formularios y datos de SERNAPESCA. Nuestro servicio permite a las empresas del sector pesquero automatizar procesos rutinarios, asegurando precisión y eficiencia.
-                    </p>
-
+        <div id="features" className="flex justify-center items-center py-20">
+            <div className="flex flex-row-reverse justify-between w-[90%] gap-20">
+                <div className="w-[50%] flex items-center">
+                    <div className="h-[500px] w-full relative ">
+                        <Image src="/about/about.jpg" alt="Descripción de la imagen"
+                            fill
+                            style={{ objectFit: 'cover', borderRadius: '20px' }}
+                        />
+                    </div>
                 </div>
-                <div className="w-[50%]">
+                <div className="w-[45%]">
+                    <p className="text-blue-500 uppercase font-medium tracking-widest py-2 text-xl">Sobre Nosotros</p>
+                    <h2 className="text-5xl pb-6 font-semibold text-textColor">Nuestra Misión: Revolucionar la Pesca con Tecnología Inteligente</h2>
+                    <p className="text-textLightColor pb-10">En pescabot.cl, somos un equipo apasionado por la tecnología y la innovación en el sector pesquero. Nos especializamos en soluciones de automatización para procesos complejos, brindando herramientas que optimizan la productividad y el cumplimiento normativo de nuestros clientes.</p>
+                  <a href="#form"> <button className="w-52 bg-blueBtn hover:bg-blue-500 px-6 py-4 rounded-full cursor-pointer text-white transition-all">Solicita una demo</button></a> 
+                    <div className="flex gap-6 py-4">
+                 
 
+                    </div>
                 </div>
             </div>
-
         </div>
     )
 }

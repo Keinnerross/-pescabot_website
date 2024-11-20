@@ -8,11 +8,12 @@ import { useState } from "react";
 
 
 const Header = () => {
+
     const [isOpenSlidebar, setIsOpenSlidebar] = useState(false);
 
     return (
         <Fragment>
-            <div className="desktopHeader hidden md:flex items-center justify-center w-screen z-[999999999999] relative">
+            <div className="desktopHeader hidden md:flex items-center justify-center w-full z-[999999999999] relative">
                 <div className="flex justify-between w-11/12 items-center">
                     <Logotype withLogotype="200" />
                     <Nav />

@@ -8,8 +8,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        blueBtn: "#76A3FF",
-        textColor: "#0A222C",
+        blueBtn: "#0284c7",
+        blueBtnFocus: "#1d4ed8",
+        textColor: "    #171717",
+        textLightColor: "#4b5563",
+      },
+      animation: {
+        'spin-infinite': 'spin 1.5s linear infinite',
       },
     },
   },
