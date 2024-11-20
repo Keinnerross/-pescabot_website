@@ -3,8 +3,8 @@ const NavResources = () => {
         <div>
             <h3 className="py-4 text-lg font-medium">Menú</h3>
             <ul className="flex flex-col gap-4 font-md">
-                <li>Preguntas Frecuentes</li>
-                <li>Terminos y condiciones</li>
+                <a href="#"><li className="cursor-pointer">Preguntas Frecuentes</li></a>
+                <a href="#">  <li className="cursor-pointer">Terminos y condiciones</li></a>
             </ul>
         </div>
     )
