@@ -16,10 +16,10 @@ const Form = () => {
   }, []);
 
   return (
-    <div id="form" className="w-full flex justify-center py-10" onSubmit={() => setIsSubmitting(true)}>
+    <div id="form" className="w-full flex justify-center py-5 md:py-10" onSubmit={() => setIsSubmitting(true)}>
       <div className="w-[90%] flex flex-col items-center gap-4">
-        <h2 className="text-3xl text-textColor py-4 font-semibold">¡Solicita una cotización!</h2>
-        <form className="flex flex-col w-[60%] gap-4" action="https://formsubmit.co/keinnerross@gmail.com" method="POST">
+        <h2 className="text-3xl text-center md:text-3xl text-textColor py-4 font-semibold">¡Solicita una cotización!</h2>
+        <form className="flex flex-col w-full md:w-[60%] gap-4" action="https://formsubmit.co/rossdrtt@gmail.com" method="POST">
           <input className={`${inputStyles}`} placeholder="Nombre" type="text" name="Nombre" required />
           <input className={`${inputStyles}`} placeholder="Correo electronico" type="email" name="Correo Electrónico" required />
           <input className={`${inputStyles}`} placeholder="Número de teléfono" type="number" name="Fono" required />
@@ -27,7 +27,7 @@ const Form = () => {
           <div className="flex justify-between items-center">
             <div className="text-white flex items-center gap-2 ">
               <input type="checkbox" className="w-6 h-6" defaultChecked name="Acepto recibir información" />
-              <span>Acepto recibir información y actualizaciones sobre el <span className="font-semibold">PescaBot</span></span>
+              <span className="text-xs md:tex-md">Acepto recibir información y actualizaciones sobre el <span className="font-semibold">PescaBot</span></span>
             </div>
             <input
               className={`w-52 border-2 border-white text-white font-medium px-6 py-4 rounded-full cursor-pointer hover:bg-white hover:text-[#0046a4] hover:border-white transition-all ${isSubmitting ? "hidden" : "flex"}`}
@@ -43,8 +43,10 @@ const Form = () => {
             {origin && (
               <>
                 <input type="hidden" name="_next" value={`${origin}/?submitted=true`} />
+                <input type="hidden" name="_cc" value="jaime.fuentes@tecnich.cl"></input>
                 <input type="hidden" name="_subject" value="¡Mensaje nuevo! - Pescabot" />
                 <input type="hidden" name="_captcha" value="false" />
+                
               </>
             )}
           </div>

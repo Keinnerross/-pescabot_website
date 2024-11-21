@@ -29,7 +29,7 @@ const Header = () => {
     return (
         <Fragment>
             <div
-                className={`desktopHeader hidden md:flex items-center justify-center w-full relative z-[999999999999] transition-all duration-300 ${isScrolled ? "bg-[#0046a4] shadow-lg !fixed top-0 !text-textColor" : "bg-transparent"
+                className={`desktopHeader hidden md:flex  items-center justify-center w-full relative z-[999999999999] transition-all duration-300 ${isScrolled ? "bg-[#0046a4] shadow-lg !fixed top-0 !text-textColor" : "bg-transparent"
                     }`}
             >
                 <div className="flex justify-between w-11/12 items-center">
@@ -39,13 +39,13 @@ const Header = () => {
             </div>
 
             <div
-                className={`MobileMenu md:hidden flex items-center justify-center w-screen fixed top-0 transition-all duration-300 ${isScrolled ? "bg-gray-800 shadow-lg" : "bg-transparent"
+                className={`MobileMenu md:hidden  flex items-center bg-[#0046a4] justify-center w-screen relative z-[999] transition-all duration-300 ${isScrolled ? "shadow-lg !fixed top-0" : ""
                     }`}
             >
                 <div className="flex justify-between w-11/12 items-center">
-                    <Logotype withLogotype="200" />
+                    <Logotype withLogotype="200" isScrolled={true} />
                     <div>
-                        <IoMenu size={40} onClick={() => setIsOpenSlidebar(true)} />
+                        <IoMenu size={35} color="white" onClick={() => setIsOpenSlidebar(true)} />
                         <SliderbarMenu isOpen={isOpenSlidebar} setIsOpen={setIsOpenSlidebar} />
                     </div>
                 </div>

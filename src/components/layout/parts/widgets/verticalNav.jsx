@@ -12,8 +12,8 @@ const VerticalNav = ({ setIsOpen, closeSlidebar }) => {
 
 
     return (
-        <div className="pl-20">
-            <h3 className="py-4 text-lg font-medium">Menú</h3>
+        <div className="">
+            <h3 className="pb-4 text-lg font-medium">Menú</h3>
             <ul className="flex flex-col gap-4 font-md ">
                 <Link href="/" > <li onClick={() => handleCloseSidebar()}>Inicio</li></Link>
                 <a href="#features" onClick={() => handleCloseSidebar()}><li>Características</li></a>

@@ -5,6 +5,9 @@ import "./globals.css";
 export const metadata = {
   title: "PescaBot - Automatización Inteligente para el Sector Pesquero",
   description: "Software para la Automatización Inteligente en el Sector Pesquero",
+  icons: {
+    icon: "/favicon.ico", 
+  },
 };
 
 

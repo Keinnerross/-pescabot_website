@@ -15,10 +15,12 @@ const SliderbarMenu = ({ isOpen, setIsOpen }) => {
             onClick={() => setIsOpen(false)}
         >
             <div
-                className={`w-[75vw] fixed h-screen top-0 right-0 transition-transform duration-300 transform bg-slate-500 ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}
+                className={`w-[75vw] fixed h-screen top-0 right-0 transition-transform duration-300 transform bg-[#0046a4] !shadow-lg ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}
                 onClick={(e) => e.stopPropagation()}  >
+                <div className="pt-20 px-8 !text-white">
+                    <VerticalNav setIsOpen={setIsOpen} closeSlidebar={closeSlidebar} />
 
-                <VerticalNav setIsOpen={setIsOpen} closeSlidebar={closeSlidebar} />
+                </div>
 
             </div>
 

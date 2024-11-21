@@ -68,3 +68,328 @@ section .wave.wave4{
         background-position-x: -1000px ;
     }
 }
+
+
+/* Tamaños básicos: */
+
+/* Extra pequeño (smartphones por debajo de 576px) */
+@media (max-width: 575.98px) {
+    /* Estilos para smartphones pequeños */
+    section .wave{
+        position: absolute;
+        width: 100%;
+        background-image: url("/wave.png");
+        background-size: 1000px 350px;
+        height: 350px;
+        transform: scaleY(-1) rotate(0deg);
+        right: 0;        
+    }
+
+    section .wave.wavebg{
+        z-index: 99;
+        opacity: 1;
+        animation-delay: 0s;
+        top: -250px;
+
+    }
+    
+    section .wave.wave1{
+        animation: animate2 25s linear infinite;
+        z-index: 1000;
+        opacity: .9;
+        animation-delay: 0s;
+        top: -190px;
+        
+
+    }
+    section .wave.wave2{
+        animation: animate 15s linear infinite;
+        z-index: 999;
+        opacity: 0.5;
+        animation-delay: -7s;
+        top: -185px;
+    
+    }
+    section .wave.wave3{
+        animation: animate 30s linear infinite;
+        z-index: 998;
+        opacity: 0.2;
+        animation-delay: -2s;
+        top: -180px;
+    
+    }
+    section .wave.wave4{
+        animation: animate 5s linear infinite;
+        z-index: 997;
+        opacity: 0.7;
+        animation-delay: -4s;
+        top: -175px;
+
+    
+    }
+    
+
+
+
+  }
+  
+  /* Pequeño (smartphones mayores a 576px) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+/* Estilos para smartphones pequeños */
+section .wave{
+    position: absolute;
+    width: 100%;
+    background-image: url("/wave.png");
+    background-size: 1000px 350px;
+    height: 350px;
+    transform: scaleY(-1) rotate(0deg);
+    right: 0;        
+}
+
+section .wave.wavebg{
+    z-index: 99;
+    opacity: 1;
+    animation-delay: 0s;
+    top: -250px;
+
+}
+
+section .wave.wave1{
+    animation: animate2 25s linear infinite;
+    z-index: 1000;
+    opacity: .9;
+    animation-delay: 0s;
+    top: -190px;
+    
+
+}
+section .wave.wave2{
+    animation: animate 15s linear infinite;
+    z-index: 999;
+    opacity: 0.5;
+    animation-delay: -7s;
+    top: -185px;
+
+}
+section .wave.wave3{
+    animation: animate 30s linear infinite;
+    z-index: 998;
+    opacity: 0.2;
+    animation-delay: -2s;
+    top: -180px;
+
+}
+section .wave.wave4{
+    animation: animate 5s linear infinite;
+    z-index: 997;
+    opacity: 0.7;
+    animation-delay: -4s;
+    top: -175px;
+
+
+}
+  }
+  
+  /* Mediano (tablets) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+   /* Estilos para smartphones pequeños */
+   section .wave{
+    position: absolute;
+    width: 100%;
+    background-image: url("/wave.png");
+    background-size: 1000px 350px;
+    height: 350px;
+    transform: scaleY(-1) rotate(0deg);
+    right: 0;        
+}
+
+section .wave.wavebg{
+    z-index: 99;
+    opacity: 1;
+    animation-delay: 0s;
+    top: -250px;
+
+}
+
+section .wave.wave1{
+    animation: animate2 25s linear infinite;
+    z-index: 1000;
+    opacity: .9;
+    animation-delay: 0s;
+    top: -190px;
+    
+
+}
+section .wave.wave2{
+    animation: animate 15s linear infinite;
+    z-index: 999;
+    opacity: 0.5;
+    animation-delay: -7s;
+    top: -185px;
+
+}
+section .wave.wave3{
+    animation: animate 30s linear infinite;
+    z-index: 998;
+    opacity: 0.2;
+    animation-delay: -2s;
+    top: -180px;
+
+}
+section .wave.wave4{
+    animation: animate 5s linear infinite;
+    z-index: 997;
+    opacity: 0.7;
+    animation-delay: -4s;
+    top: -175px;
+
+
+}
+  }
+  
+  /* Grande (laptops pequeñas y pantallas grandes) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Estilos para smartphones pequeños */
+  section .wave{
+    position: absolute;
+    width: 100%;
+    background-image: url("/wave.png");
+    background-size: 1000px 350px;
+    height: 350px;
+    transform: scaleY(-1) rotate(0deg);
+    right: 0;        
+}
+
+section .wave.wavebg{
+    z-index: 99;
+    opacity: 1;
+    animation-delay: 0s;
+    top: -250px;
+
+}
+
+section .wave.wave1{
+    animation: animate2 25s linear infinite;
+    z-index: 1000;
+    opacity: .9;
+    animation-delay: 0s;
+    top: -190px;
+    
+
+}
+section .wave.wave2{
+    animation: animate 15s linear infinite;
+    z-index: 999;
+    opacity: 0.5;
+    animation-delay: -7s;
+    top: -185px;
+
+}
+section .wave.wave3{
+    animation: animate 30s linear infinite;
+    z-index: 998;
+    opacity: 0.2;
+    animation-delay: -2s;
+    top: -180px;
+
+}
+section .wave.wave4{
+    animation: animate 5s linear infinite;
+    z-index: 997;
+    opacity: 0.7;
+    animation-delay: -4s;
+    top: -175px;
+
+
+}
+  }
+  
+  /* Extra grande (desktops) */
+  @media (min-width: 1200px) and (max-width: 1599.98px) {
+    section .wave{
+        position: absolute;
+        width: 100%;
+        background-image: url("/wave.png");
+        background-size: 1000px 530px;
+        height: 530px;
+        transform: scaleY(-1) rotate(-30deg);
+        right: -250px;
+    
+        
+    }
+    
+    
+    section .wave.wavebg{
+        z-index: 1000;
+        opacity: 1;
+        animation-delay: 0s;
+        top: -290px;
+    }
+    
+    section .wave.wave1{
+        animation: animate2 25s linear infinite;
+        z-index: 1000;
+        opacity: .9;
+        animation-delay: 0s;
+        top: -2250px;
+    }
+    section .wave.wave2{
+        animation: animate 15s linear infinite;
+        z-index: 999;
+        opacity: 0.5;
+        animation-delay: -7s;
+        top: -210px;
+    
+    }
+    section .wave.wave3{
+        animation: animate 30s linear infinite;
+        z-index: 998;
+        opacity: 0.2;
+        animation-delay: -2s;
+        top: -200px;
+    
+    }
+    section .wave.wave4{
+        animation: animate 5s linear infinite;
+        z-index: 997;
+        opacity: 0.7;
+        animation-delay: -4s;
+        top: -190px;
+    
+    }
+
+  }
+
+
+
+
+
+
+
+
+
+
+  
+  
+  /* Extra extra grande (pantallas ultra anchas) */
+  @media (min-width: 1600px) {
+    /* Estilos para pantallas ultra grandes */
+  }
+  
+  /* Casos especiales: */
+  
+  /* Orientación horizontal (landscape) */
+  @media (orientation: landscape) {
+    /* Estilos para pantallas en modo horizontal */
+  }
+  
+  /* Pantallas altas (por ejemplo, pantallas de 4:3 o tablets verticales) */
+  @media (min-height: 900px) {
+    /* Estilos para pantallas altas */
+  }
+  
+  /* Estilo solo para pantallas táctiles */
+  @media (hover: none) and (pointer: coarse) {
+    /* Estilos específicos para pantallas táctiles */
+  }
+  

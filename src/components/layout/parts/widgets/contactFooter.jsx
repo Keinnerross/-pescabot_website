@@ -5,7 +5,7 @@ import { FaMapMarkerAlt, FaEnvelope, FaPhone, FaWhatsapp } from 'react-icons/fa'
 const ContactFooter = () => {
     return (
         <div className='md:block flex justify-center flex-col items-center'>
-            <h3 className="py-4 text-lg font-medium">Contácto</h3>
+            <h3 className="md:pb-4 text-lg font-medium">Contácto</h3>
             <ul className=" flex flex-col items-center md:items-start gap-2 pt-2">
                 {/* <a href='#' className='flex gap-2 items-center'><FaMapMarkerAlt /><li >Calle Los Perales 678B, La Serena, Chile.</li></a> */}
                 <a href='#' className='flex gap-2 items-center'><FaEnvelope /><li >jaime.fuentes@tecnich.cl

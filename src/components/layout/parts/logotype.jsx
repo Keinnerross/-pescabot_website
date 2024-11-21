@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const Logotype = ({ withLogotype, isScrolled }) => {
     return (
-        <Link href="/">
+        <Link href="/" className='flex justify-center md:block'>
             <div className="h-20 relative" style={{ width: `${withLogotype}px` }} >
                 {isScrolled ?
 
