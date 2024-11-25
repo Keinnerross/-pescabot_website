@@ -14,20 +14,20 @@ const Features = () => {
                     </div>
                 </div>
                 <div className="w-full md:w-[55%]">
-                    <p className="text-blue-500 uppercase font-medium tracking-widest py-2 text-xl">Caracteristicas de PescaBot</p>
-                    <h2 className="text-3xl md:text-6xl pb-6 font-semibold text-textColor">Automatización Pesquera a medida</h2>
-                    <p className="text-textLightColor">Simplifica el procesamiento de datos en SERNAPESCA y mejora tu eficiencia operativa. PescaBot es un sistema de automatización de RPA diseñado para simplificar la interacción con los formularios y datos de SERNAPESCA. Nuestro servicio permite a las empresas del sector pesquero automatizar procesos rutinarios, asegurando precisión y eficiencia.</p>
+                    <p className="text-blue-500 uppercase font-medium tracking-widest py-2 text-xl">¿Por qué Elegir PescaBot?</p>
+                    <h2 className="text-2xl md:text-6xl pb-6 font-semibold text-textColor">Automatización Pesquera a medida</h2>
+                    <p className="text-textLightColor">PescaBot es una solución RPA diseñada para simplificar la interacción con los formularios y datos de SERNAPESCA, permitiendo a las empresas del sector pesquero automatizar procesos rutinarios con precisión y eficiencia.</p>
                     <div className="flex gap-6 py-4 ">
-                        <ul className="w-full flex flex-col gap-8 text-textColor text-lg pt-8 font-medium justify-center text-center">
+                        <ul className="w-full flex flex-col gap-8 text-textColor text-base md:text-lg pt-8 font-medium justify-center text-center md:text-left">
                             <li className="flex gap-4 flex-col items-center md:flex-row"><div className="rounded-lg  bg-[#f3c203] w-8 h-8 flex items-center justify-center">
                                 <FaCheck fill="white" />
-                            </div>Integración rápida y segura.</li>
+                            </div>Integración Eficiente: Implementación rápida y segura con los sistemas existentes.</li>
                             <li className="flex gap-4 flex-col items-center md:flex-row"><div className="rounded-lg  bg-[#00d362] w-8 h-8 flex items-center justify-center">
                                 <FaCheck fill="white" />
-                            </div>Automatización de procesos de SERNAPESCA.</li>
+                            </div>Automatización Completa: Gestión automatizada de procesos y formularios de SERNAPESCA.</li>
                             <li className="flex gap-4 flex-col items-center md:flex-row"><div className="rounded-lg  bg-[#886cff] w-8 h-8 flex items-center justify-center">
                                 <FaCheck fill="white" />
-                            </div>Informes detallados y trazabilidad en tiempo real.</li>
+                            </div>Informes en Tiempo Real: Acceso a reportes detallados y trazabilidad inmediata</li>
                         </ul>
 
                     </div>
